@@ -1,0 +1,119 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .per_order span,
+ .all_order span {
+     font-weight: 700;
+ }
+
+ /* Notices */
+.cdsm-alerts {
+    padding: 1rem 3rem;
+    margin-bottom: 1rem !important;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.cdsm-alerts.success {
+    color: #155724;
+    background-color: #009bdb;
+    border-color: #009bdb;
+    border-left: 5px solid #043a62;
+}
+
+.all_order h2,
+.per_order h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-size: 22px;
+    text-transform: capitalize;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 15px;
+    color: #fff;
+    text-align: center;
+}
+
+.cdsm-counter-row {
+
+}
+
+.product-total-box.cdsm {
+    width: 20%;
+    float: left;
+}
+
+.cdsm .product-total .icon {
+    font-size: 50px;
+    line-height: 100%;
+    text-align: center;
+    color: #5ebb60;
+    margin-bottom: 15px;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.cdsm .product-total {
+    padding: 15px 0;
+    text-align: center;
+}
+.cdsm .product-total .title {
+    font-size: 14px;
+    color: #fff;
+    line-height: 100%;
+}
+.cdsm .product-total:hover .description {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.cdsm .product-total .description {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 9px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.product-total-box.cdsm:hover{
+    cursor: pointer;
+}
+.cdsm .per_order span, .all_order span,
+.cdsm .per_order span, .per_order span {
+    font-weight: 700;
+    margin-right: 5px;
+}
+.cdsm .product-total:hover .title {
+    color: #fff;
+}
+@media(min-width: 320px) and (max-width: 767px){
+    .product-total-box.cdsm {
+        width: 100%;
+        float: left;
+    }
+}
+.woocommerce-billing-fields > h3 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 6px;
+}
+select.ocwma_select {
+    height: 40px;
+}
+.ocwma_select_shipping {
+    height: 40px;
+    margin-top: -9px;
+}
+span.select2-selection.select2-selection--single {
+    height: 40px;
+    padding-top: 5px;
+}
+.logo-footer img {
+    display: inline-block;
+    max-width: 71% !important;
+    width: 73% !important;
+}
+a.logo-footer {
+    padding-top: 15px;
+    display: inline-block;
+}
